@@ -1,0 +1,25 @@
+:root {
+  --primary-orange: #ff6600;
+}
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-color: #fdfdfd;
+}
+h1 {
+  color: var(--primary-orange);
+  font-size: 2.5rem;
+}
+.container {
+  max-width: 600px;
+  margin: 2rem auto;
+  text-align: center;
+}
+.button-group > button {
+  margin: 0.5rem;
+}
+.wallet-adapter-button {
+  background-color: var(--primary-orange) !important;
+  color: white !important;
+}
